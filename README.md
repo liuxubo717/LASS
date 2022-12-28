@@ -14,7 +14,7 @@ Clone the repository and setup the conda environment:
   ```
   git clone https://github.com/liuxubo717/LASS.git && \
   cd LASS && \ 
-  conda create -f environment.yml && \
+  conda env create -f environment.yml && \
   conda activate LASS 
   ```
 
