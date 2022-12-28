@@ -1,3 +1,4 @@
+import os
 import argparse
 import torch
 import torch.nn as nn
@@ -72,4 +73,5 @@ if __name__ == '__main__':
     parser.add_argument('-q', '--query', type=str, default='AudioCaps', help="Source of text queries, 'AudioCaps' or 'Human'.")
     args = parser.parse_args()
     
+    os.makedirs('output', exist_ok=True)
     inference(args.checkpoint, args.query)

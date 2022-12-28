@@ -34,7 +34,7 @@ The separated audio clips will be automatically saved in `output/`.
 
 ### Dataset Recipe
 Due to the copyright of AudioSet we cannot release the raw data. The training and evaluation indexes in this work are available at  `dataset/`. For faciliating the reproduction and comparsion, we release our code of creating audio mixtures at `utils/create_mixtures.py`. Here is an example of usage:
-  ```
+  ```python
   from utils.create_mixtures import add_noise_and_scale
   wav1 = torch.randn(1, 32000)
   wav2 = torch.randn(1, 32000)
