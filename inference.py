@@ -8,6 +8,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # language descriptions of target sources in the example mixtures [mix1, mix2, ..., mix10]
+# Samples are same as those used in the demo page: https://liuxubo717.github.io/LASS-demopage/
 example_captions = {
     'AudioCaps': [
         'a person shouts nearby and then emergency vehicle sirens sounds',
