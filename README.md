@@ -1,10 +1,27 @@
 # Language-Queried Audio Source Separation
 
-This repository contains the code and samples of our paper *"Separate What You Describe: Language-Queried Audio Source Separation"*, which is accepted at INTERSPEECH 2022. 
+This repository contains the code and models of "[Separate What You Describe: Language-Queried Audio Source Separation](http://arxiv.org/abs/2207.06405)" [INTERSPEECH 2022].
 
-The code of this paper will be released after acceptance.
+<p align="center">
+  <img align="middle" width="800" src="assets/LASS.png"/>
+</p>
 
-Check the audio separation samples in the [Demo Page](https://liuxubo717.github.io/LASS-demopage/) now!
+Check the examples and video in the [Demo Page](https://liuxubo717.github.io/LASS-demopage/)!
 
 
-TODO List
+### Updates
+- [x] Inference Code and Model Release
+- [x] Dataset Release
+- [ ] Provide conda-pack envs
+- [ ] Training Code Release
+
+
+### Citation
+```
+@inproceedings{liu2022separate,
+  title={Separate What You Describe: Language-Queried Audio Source Separation},
+  author={Liu, Xubo and Liu, Haohe and Kong, Qiuqiang and Mei, Xinhao and Zhao, Jinzheng and Huang, Qiushi and Plumbley, Mark D and Wang, Wenwu},
+  booktitle = {INTERSPEEH},
+  year = {2022}
+}
+```
