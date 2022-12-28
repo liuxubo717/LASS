@@ -23,14 +23,3 @@ class LASSNet(nn.Module):
 
     def get_tokenizer(self):
         return self.text_embedder.tokenizer
-
-
-if __name__ == '__main__':
-    input = torch.randn(2, 1, 1001, 513).to('cuda')
-    caption = ['[CLS] a bird is singing', '[CLS] a dog is barking']
-    model = nn.DataParallel(LASSNet().to('cuda'))
-    ckpt_path = '/vol/research/MachineAudition_CVSSP/xl01061/LASS_develop/workspace/Final-LTSS-MAE/chkpt/best_for_paper.pt'
-    checkpoint = torch.load(ckpt_path)
-    import pdb; pdb.set_trace()
-    model.load_state_dict(checkpoint['model'])
-    print(model(input, caption).shape)
