@@ -67,7 +67,7 @@ def inference(ckpt_path, query_src):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('-c', '--checkpoint', type=str, default='ckpt/best_for_paper.pt', help="Checkpoint of pre-trained LASS-Net.")
+    parser.add_argument('-c', '--checkpoint', type=str, default='ckpt/LASSNet.pt', help="Checkpoint of pre-trained LASS-Net.")
     parser.add_argument('-q', '--query', type=str, default='AudioCaps', help="Source of text queries, 'AudioCaps' or 'Human'.")
     args = parser.parse_args()
     
