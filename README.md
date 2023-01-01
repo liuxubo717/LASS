@@ -18,10 +18,10 @@ Clone the repository and setup the conda environment:
   conda activate LASS 
   ```
 
-### Infenerce 
+### Inference 
 For running the inference of the pre-trained LASS-Net model, please download our pre-trained [checkpoint](https://drive.google.com/file/d/1f8eCCYYaBdhsFqoi7PJMrT9Oo7GaWLdR/view?usp=sharing) and put it under `ckpt/`. We prepare ten audio mixtures (in  `examples/`) with text queries (as illustrated in the [Demo Page](https://liuxubo717.github.io/LASS-demopage/)) for a toy inference running. 
 
-Run inferece with AudioCaps text queries:
+Run inference with AudioCaps text queries:
 
   ```
   python inference.py -q AudioCaps
