@@ -44,7 +44,7 @@ Due to the copyright of AudioSet we cannot release the raw data. The training an
 - [x] Provide conda-pack envs
 - [x] Inference code and model release
 - [x] Dataset release
-- [ ] Training code release
+- [x] Training code release at [AudioSep repo](https://github.com/Audio-AGI/AudioSep)
 
 
 ### Citation
